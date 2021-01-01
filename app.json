@@ -51,7 +51,7 @@
       "EVENT_LOGS": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456798"
+         "value": "-"
       },      
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
@@ -131,6 +131,6 @@
       "manager",
       "fateunion"
    ],
-   "name": "saber",
-   "repository": "https://github.com/hyper-ub/saber-"
+   "name": "NOOB BOT",
+   "repository": "https://github.com/THESANSKARILADKA/lol"
 }
