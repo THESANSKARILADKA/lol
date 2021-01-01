@@ -39,7 +39,6 @@ BOT_IMG = "https://telegra.ph/file/d8e58585125c21ed1f6b8.png"
 
 
 
-
 HELP_STRINGS = """
 ¤Helpful Commands :* [.](https://telegra.ph/file/1a79c86d28aae591687c6.jpg)
 ✧ /start: Starts me! You've probably already used this.
