@@ -21,22 +21,27 @@ from tg_bot.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = """
-Hi {}, My name is {} ! 
-"I'm a part of the Fate Union and can easily manage your groups."
-𝓘 𝓪𝓶 𝒜𝓇𝓉𝑜𝓇𝒾𝒶 𝒫𝑒𝓃𝒹𝓇𝒶𝑔𝑜𝓃 𝓽𝓱𝓮 𝓼𝔀𝓸𝓻𝓭 𝓱𝓮𝓻𝓸  𝓸𝓷𝓮 𝓸𝓯 𝓽𝓱𝓮 𝓗𝓮𝓻𝓸 𝓸𝓯 𝓱𝓸𝓵𝔂 𝓰𝓻𝓪𝓲𝓵 𝔀𝓪𝓻 𝓘 𝓪𝓶 𝓼𝓾𝓶𝓶𝓸𝓷𝓮𝓭 𝓫𝔂 𝓶𝔂 𝓶𝓪𝓼𝓽𝓮𝓻 𝓽𝓸 𝓱𝓮𝓵𝓹 𝓱𝓲𝓶
-I HOPE I'LL BE ABLE TO MAINTAIN YOUR GROUP!
-Click on the /help button  to get help supported module.
+Heya! {} , I am {}
+
+
+I am a sassy and efficient group management bot developed by [NOOB](Https://t.me//sanskarixd).
+
+🍁For help with bot commands and hit /help ⚡️
+
+🍁If you are lazy you can add me to your group for taking care of it ⚡️
+
+🍁 I am better than other group management bots⚡️
 
 """
 
 
-BOT_IMG = "https://telegra.ph/file/98cb413468829dc59a74c.mp4"
+BOT_IMG = "https://telegra.ph/file/d8e58585125c21ed1f6b8.png"
 
 
 
 
 HELP_STRINGS = """
-*Helpful Commands :* [.](https://telegra.ph/file/1a79c86d28aae591687c6.jpg)
+¤Helpful Commands :* [.](https://telegra.ph/file/1a79c86d28aae591687c6.jpg)
 ✧ /start: Starts me! You've probably already used this.
 ✧ /help: Sends this message; I'll tell you more about myself!
 ✧ /settings: 
@@ -151,21 +156,21 @@ def start(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add saber to your group",
+                            text="🍁Add me to your group🍁",
                             url="t.me/{}?startgroup=true".format(context.bot.username))
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support Chat ",
-                            url="https://t.me/fateUnion"),
+                            text="🗯Updates🗯 ",
+                            url="https://t.me/NOOB_BOT_UPDATES"),
                         InlineKeyboardButton(
-                            text="Updates ",
-                            url="https://t.me/fateunionupdates")
+                            text="⚡️Noob Creator⚡️ ",
+                            url="https://t.me/Sanskarixd")
                     ],
                     [
                         InlineKeyboardButton(
-                            text="help",
-                            url="https://t.me/saber_herobot?start=help")
+                            text="☺Help👀",
+                            url="https://t.me/?start=help")
                     ]]))
        
 #@run_async
@@ -183,7 +188,7 @@ def start(update, context):
 
 
     else:
-        update.effective_message.reply_text("HI, Why u summoned me")
+        update.effective_message.reply_text("HLO, Why u summoned me?")
 
 def error_handler(update, context):
     """Log the error and send a telegram message to notify the developer."""
