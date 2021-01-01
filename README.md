@@ -26,12 +26,12 @@ Can be found on telegram as [saber](https://t.me/saber_herobot).
 
 # Fork at your own risks 
 
-* Saber is originally forked from [Shoko](https://github.com/gizmostuffin/Shoko)
+* it is originally forked from [Shoko](https://github.com/gizmostuffin/Shoko)
 * The repo is still under development and its unstable.
 * Fork it at ur own risks.
 
 
-The Support group can be reached out to at [fate union](https://t.me/fateunion), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [fate union](https://t.me/), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
  
 
