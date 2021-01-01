@@ -7,7 +7,7 @@
     <a href="https://github.com/hyper-ub/saber/network/members"><img src="https://img.shields.io/github/forks/hyper-ub/saber?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
 </p>
 
-# Saber bot - telegram
+# lol bot - telegram
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cfb691a93a064d9ea753ef2b5fccf797)](https://www.codacy.com/manual/hyper-ub/saber?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hyper-ub/saber&amp;utm_campaign=Badge_Grade)
